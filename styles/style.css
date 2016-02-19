@@ -3,10 +3,114 @@ html {
 }
 
 body {
-	display: flex;
-	flex-direction: column;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	height: 100%;
+	background-image: url('../images/OrangeBackground.jpg');
+	font-family: Helvetica;
 	margin:0;
+	padding: 0;
 	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+		 -o-font-smoothing: antialiased;
+			font-smoothing: antialiased;
+}
+
+.dialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    position: relative;
+    margin: 200px auto;
+    padding: 20px 30px 20px 30px;
+    border: black 5px solid;
+    border-radius: 10px;
+    background: #EBEBEB;
+}
+
+.header {
+  	min-height: 16.42857143px;
+  	padding: 15px;
+}
+
+.title {
+  	margin: 0;
+  	font-size: 28pt;
+  	line-height: 1.42857143;
+  	text-align: center;
+}
+
+.subtitle {
+  	margin: 0;
+  	font-size: 16pt;
+  	line-height: 3.0;
+  	text-align: center;
+}
+
+.body {
+  	position: relative;
+  	padding: 15px;
+}
+
+.form-group {
+  	margin-bottom: 20px;
+}
+
+.form-control {
+	display: block;
+	width: 95%;
+	height: 34px;
+	padding: 6px 12px;
+	margin-top: 10px;
+	margin-left: -2px;
+	font-size: 16px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.form-control:focus {
+  	border-color: #EE4400;
+  	outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.footer {
+  	padding-left: 20px;
+  	padding-right: 20px;
+  	padding-bottom: 20px;
+  	text-align: right;
+}
+
+.btn {
+	display: inline-block;
+	padding: 8px 20px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.btn-primary {
+  	color: #fff;
+  	background-color: #EB4400;
+  	border-color: black;
+}
+
+.btn-primary:hover {
+  	color: black;
+  	background-color: #F0B501;
+  	border-color: black;
 }
