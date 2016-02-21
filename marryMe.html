@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <title>Music Player</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <script type="text/javascript" src="scripts/functionality.js"></script>
+</head>
+<body>
+  <div class="round-button">
+    <a href="library.html"><div class="round-button-circle">
+      <div class="triangle"></div></a>
+  </div>
+  <div class="whole">
+    <div id="bars" class="area">
+      <div class="bar" style="left: 0px; height: 358.594px;"></div>
+      <div class="bar" style="left: 18.75px; height: 358.594px;"></div>
+      <div class="bar" style="left: 37.5px; height: 324.844px;"></div>
+      <div class="bar" style="left: 56.25px; height: 278.438px;"></div>
+      <div class="bar" style="left: 75.03px; height: 246.094px;"></div>
+      <div class="bar" style="left: 93.78px; height: 254.531px;"></div>
+      <div class="bar" style="left: 112.53px; height: 251.719px;"></div>
+      <div class="bar" style="left: 131.28px; height: 248.906px;"></div>
+      <div class="bar" style="left: 150.03px; height: 248.906px;"></div>
+      <div class="bar" style="left: 168.78px; height: 246.094px;"></div>
+      <div class="bar" style="left: 187.53px; height: 237.656px;"></div>
+      <div class="bar" style="left: 206.28px; height: 219.375px;"></div>
+      <div class="bar" style="left: 225.03px; height: 217.969px;"></div>
+      <div class="bar" style="left: 243.78px; height: 220.781px;"></div>
+      <div class="bar" style="left: 262.53px; height: 216.562px;"></div>
+      <div class="bar" style="left: 281.28px; height: 212.344px;"></div>
+      <div class="bar" style="left: 300.03px; height: 212.344px;"></div>
+      <div class="bar" style="left: 318.78px; height: 219.375px;"></div>
+      <div class="bar" style="left: 337.53px; height: 209.531px;"></div>
+      <div class="bar" style="left: 356.28px; height: 199.688px;"></div>
+      <div class="bar" style="left: 375.03px; height: 201.094px;"></div>
+      <div class="bar" style="left: 393.78px; height: 199.688px;"></div>
+      <div class="bar" style="left: 412.53px; height: 194.062px;"></div>
+      <div class="bar" style="left: 431.28px; height: 188.438px;"></div>
+      <div class="bar" style="left: 450.03px; height: 180px;"></div>
+      <div class="bar" style="left: 468.78px; height: 165.938px;"></div>
+      <div class="bar" style="left: 487.53px; height: 139.219px;"></div>
+      <div class="bar" style="left: 506.28px; height: 94.2188px;"></div>
+      <div class="bar" style="left: 525.03px; height: 0px;"></div>
+      <div class="bar" style="left: 543.78px; height: 0px;"></div>
+      <div class="bar" style="left: 562.53px; height: 0px;"></div>
+      <div class="bar" style="left: 581.28px; height: 0px;"></div>
+    </div>
+    <audio id="sound" style="position: relative" src="assets/Marry Me.m4a" controls></audio>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+      <filter id="filter">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="filter" />
+      </filter>
+    </defs>
+  </svg>
+</body>
+</html>

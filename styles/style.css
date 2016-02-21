@@ -48,6 +48,13 @@ body {
 	text-align: center;
 }
 
+.welcome {
+  margin: 0;
+  font-size: 50pt;
+  line-height: 2.0;
+  text-align: center;
+}
+
 .body {
 	position: relative;
 	padding: 15px;
@@ -113,6 +120,30 @@ body {
 	color: black;
 	background-color: #F0B501;
 	border-color: black;
+}
+
+.round-button {
+  width:10%;
+}
+
+.round-button-circle {
+  width: 100%;
+  height:0;
+  padding-bottom: 100%;
+  margin: 25px;
+  border-radius: 50%;
+  overflow:hidden;
+  background: #EE4400; 
+}
+
+.triangle {
+  margin-top: 35px;
+  margin-left: 20px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 95px solid white;
+  border-bottom: 50px solid transparent;
 }
 
 .flip-container {
@@ -192,4 +223,39 @@ body {
   width: 220px;
   height: 220px;
   border: 8px solid #EE4400;
+}
+
+.area {
+  position: relative;
+  background-image: url('../images/Tattoos\ -\ EP.jpg');
+/*  background: -webkit-linear-gradient(#f0f0f0,#f8f8f8);
+  background: -moz-linear-gradient(#f0f0f0,#f8f8f8);
+  background: -ms-linear-gradient(#f0f0f0,#f8f8f8);*/
+  width: 600px;
+  height: 600px;
+}
+
+.bar {
+  position: absolute;
+  bottom: 0;
+  width: 18.75px;
+  box-shadow: 0px -2px 0 #EE4400;
+  background: #000;
+  opacity: .8;
+  -webkit-transition: .1s ease all;
+}
+
+audio#sound {
+  position: absolute;
+  bottom: 0;
+  width: 600px;
+  left: 0;
+  border: 0;
+  background-color: black;
+}
+
+.whole {
+  position: fixed;
+  left: 550px;
+  top: 100px;
 }
