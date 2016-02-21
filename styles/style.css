@@ -5,56 +5,56 @@ html {
 body {
 	background-image: url('../images/OrangeBackground.jpg');
 	font-family: Helvetica;
-	margin:0;
+	margin: 0;
 	padding: 0;
 	-webkit-font-smoothing: antialiased;
 	   -moz-font-smoothing: antialiased;
-		 -o-font-smoothing: antialiased;
-			font-smoothing: antialiased;
+		   -o-font-smoothing: antialiased;
+	        font-smoothing: antialiased;
 }
 
 .dialog {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 500px;
-    position: relative;
-    margin: 180px auto;
-    padding: 20px 30px 20px 30px;
-    border: black 5px solid;
-    border-radius: 10px;
-    background: #EBEBEB;
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  position: relative;
+  margin: 180px auto;
+  padding: 20px 30px 20px 30px;
+  border: black 5px solid;
+  border-radius: 10px;
+  background: #EBEBEB;
 }
 
 .header {
-  	min-height: 16.42857143px;
-  	padding: 15px;
+	min-height: 16.42857143px;
+	padding: 15px;
 }
 
 .title {
-  	margin: 0;
-  	font-size: 28pt;
-  	line-height: 1.42857143;
-  	text-align: center;
+	margin: 0;
+	font-size: 28pt;
+	line-height: 1.42857143;
+	text-align: center;
 }
 
 .subtitle {
-  	margin: 0;
-  	font-size: 16pt;
-  	line-height: 3.0;
-  	text-align: center;
+	margin: 0;
+	font-size: 16pt;
+	line-height: 3.0;
+	text-align: center;
 }
 
 .body {
-  	position: relative;
-  	padding: 15px;
+	position: relative;
+	padding: 15px;
 }
 
 .form-group {
-  	margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .form-control {
@@ -75,20 +75,20 @@ body {
 }
 
 .form-control:focus {
-  	border-color: #EE4400;
-  	outline: 0;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+	border-color: #EE4400;
+	outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
 }
 
 .footer {
-  	padding-left: 20px;
-  	padding-right: 20px;
-  	padding-bottom: 20px;
-  	text-align: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	text-align: right;
 }
 
 .btn {
-	display: inline-block;
+  display: inline-block;
 	padding: 8px 20px;
 	margin-bottom: 0;
 	font-size: 14px;
@@ -104,13 +104,92 @@ body {
 }
 
 .btn-primary {
-  	color: #fff;
-  	background-color: #EB4400;
-  	border-color: black;
+	color: #fff;
+	background-color: #EB4400;
+	border-color: black;
 }
 
 .btn-primary:hover {
-  	color: black;
-  	background-color: #F0B501;
-  	border-color: black;
+	color: black;
+	background-color: #F0B501;
+	border-color: black;
+}
+
+.flip-container {
+  position: absolute;
+  float: left;
+  margin-bottom: 50px;
+  margin-top: -100px;
+  margin-left: -100px;
+  -webkit-perspective: 1200;
+     -moz-perspective: 1200;
+          perspective: 1200;
+}
+
+.flip-container:hover .creation {
+  -webkit-transform: rotateY(180deg);
+     -moz-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.creation {
+  width: 236px;
+  height: 236px;
+  float: left;
+  -webkit-transition: all 0.6s;
+     -moz-transition: all 0.6s;
+          transition: all 0.6s;
+  -webkit-transform-style: preserve-3d;
+     -moz-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.front,
+.back {
+  position: absolute;
+  top: 0;
+  left: : 0;
+  -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.back {
+  z-index: 800;
+  -webkit-transform: rotateY(-180deg);
+     -moz-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.creation p {
+  color: #EE4400;
+  display: block;
+  width: auto;
+  text-align: center;
+  line-height: 230px;
+  margin: 0 0px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #999;
+  font-family: sans-serif;
+}
+
+.creation p span {
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 2;
+}
+
+.cont {
+  background-color: #ddd;
+  width: 220px;
+  height: 220px;
+  display: inline-block;
+  border: 8px solid #EE4400;
+}
+
+.image {
+  width: 220px;
+  height: 220px;
+  border: 8px solid #EE4400;
 }
