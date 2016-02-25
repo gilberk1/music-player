@@ -299,98 +299,45 @@ body {
 
 @media (max-width: 1533px) {
   #back-container {
-    position:absolute;
     top: 1%;
     left: 1%;
-    z-index:10;
-    height:150px;
-    width:150px;
-    background:#EE4400;
-    border-radius:50%;
   }
-
   .back-arrow {
-    position:absolute;
-    top: 25%;
     left:1.5%;
-    height:0;
-    width:0;
-    border-top:37.5px solid transparent;
-    border-bottom:37.5px solid transparent;
-    border-left:37.5px solid transparent;
-    border-right:56.25px solid white;
   }
   #back-container:hover .back-arrow {
-    position:absolute;
-    top: 25%;
     left:1.5%;
-    height:0;
-    width:0;
-    border-top:37.5px solid transparent;
-    border-bottom:37.5px solid transparent;
-    border-left:37.5px solid transparent;
-    border-right:56.25px solid #EE4400;
   }
   .creation {
     width: 216px;
     height: 216px;
-    float: left;
-    -webkit-transition: all 0.6s;
-       -moz-transition: all 0.6s;
-            transition: all 0.6s;
-    -webkit-transform-style: preserve-3d;
-       -moz-transform-style: preserve-3d;
-            transform-style: preserve-3d;
   }
-
   .creation p {
-    color: #EE4400;
-    display: block;
-    width: auto;
-    text-align: center;
     line-height: 210px;
-    margin: 0 0px;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px #999;
-    font-family: sans-serif;
   }
-
   .cont {
-    background-color: #ddd;
     width: 200px;
     height: 200px;
-    display: inline-block;
-    border: 8px solid #EE4400;
-    border-radius: 20px;
   }
-
   .image {
     width: 200px;
     height: 200px;
-    border: 8px solid #EE4400;
-    border-radius: 20px;
   }
-
   #where {
     font-size: 17px;
   }
   #one, #two, #three, #four, #five {
     top: 20%;
   }
-
   #six, #seven, #eight, #nine, #ten {
     top: 48%;
   }
-
   #eleven, #twelve, #thirteen, #fourteen, #fifteen {
     top: 76%;
   }
-
   #sixteen, #seventeen, #eighteen, #nineteen, #twenty {
     top: 104%;
   }
-
   #twentyone, #twentytwo, #twentythree, #twentyfour, #twentyfive {
     top: 132%;
   }
@@ -398,32 +345,16 @@ body {
 
 @media (max-width: 1404px) {
   #back-container {
-    position:absolute;
-    top: 1%;
-    left: 1%;
-    z-index:10;
     height:125px;
     width:125px;
-    background:#EE4400;
-    border-radius:50%;
   }
   .back-arrow {
-    position:absolute;
-    top: 25%;
-    left:1%;
-    height:0;
-    width:0;
     border-top:31.25px solid transparent;
     border-bottom:31.25px solid transparent;
     border-left:31.25px solid transparent;
     border-right:46.875px solid white;
   }
   #back-container:hover .back-arrow {
-    position:absolute;
-    top: 25%;
-    left:1%;
-    height:0;
-    width:0;
     border-top:31.25px solid transparent;
     border-bottom:31.25px solid transparent;
     border-left:31.25px solid transparent;
@@ -433,42 +364,20 @@ body {
   .creation {
     width: 252px;
     height: 252px;
-    float: left;
-    -webkit-transition: all 0.6s;
-       -moz-transition: all 0.6s;
-            transition: all 0.6s;
-    -webkit-transform-style: preserve-3d;
-       -moz-transform-style: preserve-3d;
-            transform-style: preserve-3d;
   }
 
   .creation p {
-    color: #EE4400;
-    display: block;
-    width: auto;
-    text-align: center;
-    line-height: 226px;
-    margin: 0 0px;
-    font-size: 22px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px #999;
-    font-family: sans-serif;
+    line-height: 230px;
   }
 
   .cont {
-    background-color: #ddd;
     width: 236px;
     height: 236px;
-    display: inline-block;
-    border: 8px solid #EE4400;
-    border-radius: 20px;
   }
 
   .image {
     width: 236px;
     height: 236px;
-    border: 8px solid #EE4400;
-    border-radius: 20px;
   }
 
   #dance, #earned {
@@ -523,151 +432,92 @@ body {
   }
 }
 @media (max-width: 1231px) {
-    #back-container {
-    position:absolute;
-    top: 1%;
-    left: 1%;
-    z-index:10;
+  #back-container {
     height:100px;
     width:100px;
-    background:#EE4400;
-    border-radius:50%;
-    }
-    .back-arrow {
-    position:absolute;
-    top: 25%;
-    left:1%;
-    height:0;
-    width:0;
+  }
+  .back-arrow {
     border-top:25px solid transparent;
     border-bottom:25px solid transparent;
     border-left:25px solid transparent;
     border-right:37.5px solid white;
-    }
-    #back-container:hover .back-arrow {
-    position:absolute;
-    top: 25%;
-    left:1%;
-    height:0;
-    width:0;
+  }
+  #back-container:hover .back-arrow {
     border-top:25px solid transparent;
     border-bottom:25px solid transparent;
     border-left:25px solid transparent;
     border-right:37.5px solid #EE4400;
-    }
-
-    .creation {
+  }
+  .creation {
     width: 216px;
     height: 216px;
-    float: left;
-    -webkit-transition: all 0.6s;
-       -moz-transition: all 0.6s;
-            transition: all 0.6s;
-    -webkit-transform-style: preserve-3d;
-       -moz-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-    }
-
-    .creation p {
-    color: #EE4400;
-    display: block;
-    width: auto;
-    text-align: center;
+  }
+  .creation p {
     line-height: 210px;
-    margin: 0 0px;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px #999;
-    font-family: sans-serif;
-    }
-    .creation p span {
-    vertical-align: middle;
-    display: inline-block;
-    line-height: 1.8;
-    }
-
-    .cont {
-    background-color: #ddd;
+  }
+  .cont {
     width: 200px;
     height: 200px;
-    display: inline-block;
-    border: 8px solid #EE4400;
-    border-radius: 20px;
-   }
-
-    .image {
+  }
+  .image {
     width: 200px;
     height: 200px;
-    border: 8px solid #EE4400;
-    border-radius: 20px;
-    }
+  }
 
-    #dance, #earned {
+  #dance, #earned {
     font-size: 16px;
-    }
+  }
 
-    #one, #two, #three, #four {
+  #one, #two, #three, #four {
     top: 20%;
-    }
+  }
 
-   #five, #six, #seven, #eight {
+  #five, #six, #seven, #eight {
     top: 50%;
-    }
+  }
 
-    #nine, #ten, #eleven, #twelve {
-      top: 80%;
-    }
+  #nine, #ten, #eleven, #twelve {
+    top: 80%;
+  }
 
-    #thirteen, #fourteen, #fifteen, #sixteen {
-      top: 110%;
-    }
+  #thirteen, #fourteen, #fifteen, #sixteen {
+    top: 110%;
+  }
 
-    #seventeen, #eighteen, #nineteen, #twenty  {
-      top: 140%;
-    }
+  #seventeen, #eighteen, #nineteen, #twenty  {
+    top: 140%;
+  }
 
-    #twentyone, #twentytwo, #twentythree, #twentyfour {
-      top: 170%;
-    }
+  #twentyone, #twentytwo, #twentythree, #twentyfour {
+    top: 170%;
+  }
 
-    #twentyfive {
-      top: 200%;
-    }
+  #twentyfive {
+    top: 200%;
+  }
 
-    #one, #five, #nine, #thirteen, #seventeen, #twentyone {
-      left: 20%;
-    }
+  #one, #five, #nine, #thirteen, #seventeen, #twentyone {
+    left: 20%;
+  }
 
-    #two, #six, #ten, #fourteen, #eighteen, #twentytwo {
-      left: 40%;
-    }
+  #two, #six, #ten, #fourteen, #eighteen, #twentytwo {
+    left: 40%;
+  }
 
-    #three, #seven, #eleven, #fifteen, #nineteen, #twentythree {
-      left: 60%
-    }
+  #three, #seven, #eleven, #fifteen, #nineteen, #twentythree {
+    left: 60%
+  }
 
-    #four, #eight, #twelve, #sixteen, #twenty, #twentyfour {
-      left: 80%;
-    }
+  #four, #eight, #twelve, #sixteen, #twenty, #twentyfour {
+    left: 80%;
+  }
 
-    #twentyfive {
-      left: 50%;
-    }
+  #twentyfive {
+    left: 50%;
+  }
 }
 
 @media (max-width: 1050px) {
-  .creation p {
-    color: #EE4400;
-    display: block;
-    width: auto;
-    text-align: center;
-    line-height: 210px;
-    margin: 0 0px;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px #999;
-    font-family: sans-serif;
-  }
   #one, #two, #three {
     top: 20%;
   }
@@ -721,52 +571,23 @@ body {
   .creation {
     width: 316px;
     height: 316px;
-    float: left;
-    -webkit-transition: all 0.6s;
-       -moz-transition: all 0.6s;
-            transition: all 0.6s;
-    -webkit-transform-style: preserve-3d;
-       -moz-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-    }
-
+  }
   .creation p {
-    color: #EE4400;
-    display: block;
-    width: auto;
-    text-align: center;
     line-height: 300px;
-    margin: 0 0px;
     font-size: 30px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px #999;
-    font-family: sans-serif;
   }
-
-  .creation p span {
-    vertical-align: middle;
-    display: inline-block;
-    line-height: 2.5;
-  }
-
   .cont {
-    background-color: #ddd;
     width: 300px;
     height: 300px;
-    display: inline-block;
-    border: 8px solid #EE4400;
-    border-radius: 20px;
   }
 
   .image {
     width: 300px;
     height: 300px;
-    border: 8px solid #EE4400;
-    border-radius: 20px;
   }
 
   #flower, #dance, #earned, #waves, #something, #where {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   #one, #two {
@@ -838,45 +659,24 @@ body {
     .creation {
       width: 266px;
       height: 266px;
-      float: left;
-      -webkit-transition: all 0.6s;
-         -moz-transition: all 0.6s;
-              transition: all 0.6s;
-      -webkit-transform-style: preserve-3d;
-         -moz-transform-style: preserve-3d;
-              transform-style: preserve-3d;
     }
 
     .creation p {
-      color: #EE4400;
-      display: block;
-      width: auto;
-      text-align: center;
       line-height: 250px;
-      margin: 0 0px;
-      font-size: 20px;
-      text-transform: uppercase;
-      text-shadow: 1px 1px 1px #999;
-      font-family: sans-serif;
+      font-size: 22px;
     }
 
     .cont {
-      background-color: #ddd;
       width: 250px;
       height: 250px;
-      display: inline-block;
-      border: 8px solid #EE4400;
-      border-radius: 20px;
     }
 
     .image {
       width: 250px;
       height: 250px;
-      border: 8px solid #EE4400;
-      border-radius: 20px;
     }
     
-    #dance {
+    #dance, #where, #something, #earned {
       font-size: 18px;
     }
 
@@ -949,42 +749,21 @@ body {
     .creation {
       width: 366px;
       height: 366px;
-      float: left;
-      -webkit-transition: all 0.6s;
-         -moz-transition: all 0.6s;
-              transition: all 0.6s;
-      -webkit-transform-style: preserve-3d;
-         -moz-transform-style: preserve-3d;
-              transform-style: preserve-3d;
     }
 
     .creation p {
-      color: #EE4400;
-      display: block;
-      width: auto;
-      text-align: center;
       line-height: 350px;
-      margin: 0 0px;
       font-size: 30px;
-      text-transform: uppercase;
-      text-shadow: 1px 1px 1px #999;
-      font-family: sans-serif;
     }
 
     .cont {
-      background-color: #ddd;
       width: 350px;
       height: 350px;
-      display: inline-block;
-      border: 8px solid #EE4400;
-      border-radius: 20px;
     }
 
     .image {
       width: 350px;
       height: 350px;
-      border: 8px solid #EE4400;
-      border-radius: 20px;
     }
     #flower, #dance, #earned, #waves, #something, #where {
       font-size: 24px;
@@ -1094,34 +873,37 @@ body {
     }
 }
 
+@media (max-width: 594px) {
+  .dialog {
+    width: 350px;
+  }
+
+  .title {
+    line-height: 1.5;
+  }
+
+  .subtitle {
+    line-height: 1.5;
+  }
+
+  .welcome {
+    line-height: 1.5;
+    margin-bottom: -10px;
+  }
+}
+
 @media (max-width: 524px) {
     #back-container {
-    position:absolute;
-    top: 1%;
-    left: 1%;
-    z-index:10;
     height:75px;
     width:75px;
-    background:#EE4400;
-    border-radius:50%;
     }
     .back-arrow {
-    position:absolute;
-    top: 25%;
-    left:1%;
-    height:0;
-    width:0;
     border-top:18.75px solid transparent;
     border-bottom:18.75px solid transparent;
     border-left:18.75px solid transparent;
     border-right:28.125px solid white;
     }
     #back-container:hover .back-arrow {
-    position:absolute;
-    top: 25%;
-    left:1%;
-    height:0;
-    width:0;
     border-top:18.75px solid transparent;
     border-bottom:18.75px solid transparent;
     border-left:18.75px solid transparent;
@@ -1130,42 +912,20 @@ body {
     .creation {
     width: 316px;
     height: 316px;
-    float: left;
-    -webkit-transition: all 0.6s;
-       -moz-transition: all 0.6s;
-            transition: all 0.6s;
-    -webkit-transform-style: preserve-3d;
-       -moz-transform-style: preserve-3d;
-            transform-style: preserve-3d;
     }
 
     .creation p {
-      color: #EE4400;
-      display: block;
-      width: auto;
-      text-align: center;
       line-height: 310px;
-      margin: 0 0px;
-      font-size: 30px;
-      text-transform: uppercase;
-      text-shadow: 1px 1px 1px #999;
-      font-family: sans-serif;
     }
 
     .cont {
-      background-color: #ddd;
       width: 300px;
       height: 300px;
-      display: inline-block;
-      border: 8px solid #EE4400;
-      border-radius: 20px;
     }
 
     .image {
       width: 300px;
       height: 300px;
-      border: 8px solid #EE4400;
-      border-radius: 20px;
     }
     #flower, #dance, #earned, #waves, #something, #where {
       font-size: 24px;
@@ -1273,4 +1033,13 @@ body {
     #one, #three, #five, #seven, #nine, #eleven, #thirteen, #fifteen, #seventeen, #nineteen, #twentyone, #twentythree, #two, #four, #six, #eight, #ten, #twelve, #fourteen, #sixteen, #eighteen, #twenty, #twentytwo, #twentyfour, #twentyfive {
       left: 40%
     }
+  }
+  @media (max-width: 444px)  {
+  .dialog {
+    width: 300px;
+  }
+
+  .welcome {
+    margin-left: -20px;
+  }
 }
