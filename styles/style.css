@@ -342,7 +342,6 @@ body {
     top: 132%;
   }
 }
-
 @media (max-width: 1404px) {
   #back-container {
     height:125px;
@@ -431,6 +430,7 @@ body {
     left: 50%;
   }
 }
+
 @media (max-width: 1231px) {
   #back-container {
     height:100px;
@@ -1034,7 +1034,7 @@ body {
       left: 40%
     }
   }
-  @media (max-width: 444px)  {
+@media (max-width: 444px)  {
   .dialog {
     width: 300px;
   }
@@ -1043,3 +1043,993 @@ body {
     margin-left: -20px;
   }
 }
+@media (max-height: 775px) {
+  #one, #two, #three, #four, #five {
+    top: 20%;
+  }
+
+  #six, #seven, #eight, #nine, #ten {
+    top: 55%;
+  }
+
+  #eleven, #twelve, #thirteen, #fourteen, #fifteen {
+    top: 90%;
+  }
+
+  #sixteen, #seventeen, #eighteen, #nineteen, #twenty {
+    top: 125%;
+  }
+
+  #twentyone, #twentytwo, #twentythree, #twentyfour, #twentyfive {
+    top: 160%;
+  }
+}
+
+@media (max-height: 655px) {
+  #one, #two, #three, #four, #five {
+    top: 20%;
+  }
+
+  #six, #seven, #eight, #nine, #ten {
+    top: 60%;
+  }
+
+  #eleven, #twelve, #thirteen, #fourteen, #fifteen {
+    top: 100%;
+  }
+
+  #sixteen, #seventeen, #eighteen, #nineteen, #twenty {
+    top: 140%;
+  }
+
+  #twentyone, #twentytwo, #twentythree, #twentyfour, #twentyfive {
+    top: 180%;
+  }
+}
+@media (max-height: 580px) {
+  #one, #two, #three, #four, #five {
+    top: 20%;
+  }
+
+  #six, #seven, #eight, #nine, #ten {
+    top: 70%;
+  }
+
+  #eleven, #twelve, #thirteen, #fourteen, #fifteen {
+    top: 120%;
+  }
+
+  #sixteen, #seventeen, #eighteen, #nineteen, #twenty {
+    top: 170%;
+  }
+
+  #twentyone, #twentytwo, #twentythree, #twentyfour, #twentyfive {
+    top: 220%;
+  }
+}
+@media (max-height: 460px) {
+  #one, #two, #three, #four, #five {
+    top: 25%;
+  }
+
+  #six, #seven, #eight, #nine, #ten {
+    top: 90%;
+  }
+
+  #eleven, #twelve, #thirteen, #fourteen, #fifteen {
+    top: 155%;
+  }
+
+  #sixteen, #seventeen, #eighteen, #nineteen, #twenty {
+    top: 220%;
+  }
+
+  #twentyone, #twentytwo, #twentythree, #twentyfour, #twentyfive {
+    top: 285%;
+  }
+}
+@media (max-height: 618px) {
+    .dialog {
+    top: -50px;
+  }
+}
+
+  @media (max-height: 517px) {
+    .dialog {
+    top: -115px;
+  }
+}
+  @media (max-height: 452px) {
+      .dialog {
+      top: -150px;
+    }
+  }
+  @media (max-height: 440px) {
+      .dialog {
+      top: -150px;
+    }
+  }
+  @media (max-width: 1404px) and (max-height: 775px) {
+  #one, #two, #three, #four {
+    top: 20%;
+  }
+
+  #five, #six, #seven, #eight {
+    top: 53%;
+  }
+
+  #nine, #ten, #eleven, #twelve {
+    top: 86%;
+  }
+
+  #thirteen, #fourteen, #fifteen, #sixteen {
+    top: 119%;
+  }
+
+  #seventeen, #eighteen, #nineteen, #twenty  {
+    top: 152%;
+  }
+
+  #twentyone, #twentytwo, #twentythree, #twentyfour {
+    top: 185%;
+  }
+
+  #twentyfive {
+    top: 218%;
+  }
+}
+
+@media (max-width: 1050px) and (max-height: 775px) {
+  #one, #two, #three {
+    top: 20%;
+  }
+
+  #four, #five, #six {
+    top: 50%;
+  }
+
+  #seven, #eight, #nine {
+    top: 80%;
+  }
+
+  #ten, #eleven, #twelve {
+    top: 110%;
+  }
+
+  #thirteen, #fourteen, #fifteen {
+    top: 140%;
+  }
+
+  #sixteen, #seventeen, #eighteen  {
+    top: 170%;
+  }
+
+  #nineteen, #twenty, #twentyone {
+    top: 200%;
+  }
+
+  #twentytwo, #twentythree, #twentyfour {
+    top: 230%;
+  }
+
+  #twentyfive {
+    top: 260%;
+  }
+}
+  @media (max-width: 839px) and (max-height: 775px) {
+  #one, #two {
+    top: 20%;
+  }
+
+  #three, #four {
+    top: 65%;
+  }
+
+  #five, #six {
+    top: 110%;
+  }
+
+  #seven, #eight {
+    top: 155%;
+  }
+
+  #nine, #ten {
+    top: 200%;
+  }
+
+  #eleven, #twelve  {
+    top: 245%;
+  }
+
+  #thirteen, #fourteen {
+    top: 290%;
+  }
+
+  #fifteen, #sixteen {
+    top: 335%;
+  }
+
+  #seventeen, #eighteen {
+    top: 380%;
+  }
+
+  #nineteen, #twenty {
+    top: 425%;
+  }
+
+  #twentyone, #twentytwo {
+    top: 470%;
+  }
+
+  #twentythree, #twentyfour {
+    top: 515%;
+  }
+
+  #twentyfive {
+    top: 560%;
+  }
+}
+@media (max-width: 676px) and (max-height: 796px) {
+    #one {
+      top: 25%;
+    }
+
+    #two {
+      top: 75%;
+    }
+
+    #three {
+      top: 125%;
+    }
+
+    #four {
+      top: 175%;
+    }
+
+    #five {
+      top: 225%;
+    }
+
+    #six {
+      top: 275%;
+    }
+
+    #seven {
+      top: 325%;
+    }
+
+    #eight {
+      top: 375%;
+    }
+
+    #nine {
+      top: 425%;
+    }
+
+    #ten {
+      top: 475%;
+    }
+
+    #eleven {
+      top: 525%;
+    }
+
+    #twelve {
+      top: 575%;
+    }
+
+    #thirteen {
+      top: 625%;
+    }
+
+    #fourteen {
+      top: 675%;
+    }
+
+    #fifteen {
+      top: 725%;
+    }
+
+    #sixteen {
+      top: 775%;
+    }
+
+    #seventeen {
+      top: 825%;
+    }
+
+    #eighteen {
+      top: 875%;
+    }
+
+    #nineteen {
+      top: 925%;
+    }
+
+    #twenty {
+      top: 975%;
+    }
+
+    #twentyone {
+      top: 1025%;
+    }
+
+    #twentytwo {
+      top: 1075%;
+    }
+
+    #twentythree {
+      top: 1125%;
+    }
+
+    #twentyfour {
+      top: 1175%;
+    }
+
+    #twentyfive {
+      top: 1225%;
+    }
+  }
+  @media (max-width: 1404px) and (max-height: 655px) {
+  #one, #two, #three, #four {
+    top: 20%;
+  }
+
+  #five, #six, #seven, #eight {
+    top: 65%;
+  }
+
+  #nine, #ten, #eleven, #twelve {
+    top: 110%;
+  }
+
+  #thirteen, #fourteen, #fifteen, #sixteen {
+    top: 155%;
+  }
+
+  #seventeen, #eighteen, #nineteen, #twenty  {
+    top: 200%;
+  }
+
+  #twentyone, #twentytwo, #twentythree, #twentyfour {
+    top: 245%;
+  }
+
+  #twentyfive {
+    top: 290%;
+  }
+}
+
+@media (max-width: 1050px) and (max-height: 655px) {
+  #one, #two, #three {
+    top: 20%;
+  }
+
+  #four, #five, #six {
+    top: 60%;
+  }
+
+  #seven, #eight, #nine {
+    top: 100%;
+  }
+
+  #ten, #eleven, #twelve {
+    top: 140%;
+  }
+
+  #thirteen, #fourteen, #fifteen {
+    top: 180%;
+  }
+
+  #sixteen, #seventeen, #eighteen  {
+    top: 220%;
+  }
+
+  #nineteen, #twenty, #twentyone {
+    top: 260%;
+  }
+
+  #twentytwo, #twentythree, #twentyfour {
+    top: 300%;
+  }
+
+  #twentyfive {
+    top: 340%;
+  }
+}
+  @media (max-width: 839px) and (max-height: 655px) {
+  #one, #two {
+    top: 20%;
+  }
+
+  #three, #four {
+    top: 75%;
+  }
+
+  #five, #six {
+    top: 130%;
+  }
+
+  #seven, #eight {
+    top: 185%;
+  }
+
+  #nine, #ten {
+    top: 240%;
+  }
+
+  #eleven, #twelve  {
+    top: 295%;
+  }
+
+  #thirteen, #fourteen {
+    top: 350%;
+  }
+
+  #fifteen, #sixteen {
+    top: 405%;
+  }
+
+  #seventeen, #eighteen {
+    top: 460%;
+  }
+
+  #nineteen, #twenty {
+    top: 515%;
+  }
+
+  #twentyone, #twentytwo {
+    top: 570%;
+  }
+
+  #twentythree, #twentyfour {
+    top: 625%;
+  }
+
+  #twentyfive {
+    top: 680%;
+  }
+}
+@media (max-width: 676px) and (max-height: 655px) {
+    #one {
+      top: 30%;
+    }
+
+    #two {
+      top: 90%;
+    }
+
+    #three {
+      top: 150%;
+    }
+
+    #four {
+      top: 210%;
+    }
+
+    #five {
+      top: 270%;
+    }
+
+    #six {
+      top: 330%;
+    }
+
+    #seven {
+      top: 390%;
+    }
+
+    #eight {
+      top: 450%;
+    }
+
+    #nine {
+      top: 510%;
+    }
+
+    #ten {
+      top: 570%;
+    }
+
+    #eleven {
+      top: 630%;
+    }
+
+    #twelve {
+      top: 690%;
+    }
+
+    #thirteen {
+      top: 750%;
+    }
+
+    #fourteen {
+      top: 810%;
+    }
+
+    #fifteen {
+      top: 870%;
+    }
+
+    #sixteen {
+      top: 930%;
+    }
+
+    #seventeen {
+      top: 990%;
+    }
+
+    #eighteen {
+      top: 1050%;
+    }
+
+    #nineteen {
+      top: 1110%;
+    }
+
+    #twenty {
+      top: 1170%;
+    }
+
+    #twentyone {
+      top: 1230%;
+    }
+
+    #twentytwo {
+      top: 1290%;
+    }
+
+    #twentythree {
+      top: 1350%;
+    }
+
+    #twentyfour {
+      top: 1410%;
+    }
+
+    #twentyfive {
+      top: 1470%;
+    }
+  }
+    @media (max-width: 1404px) and (max-height: 580px) {
+  #one, #two, #three, #four {
+    top: 20%;
+  }
+
+  #five, #six, #seven, #eight {
+    top: 70%;
+  }
+
+  #nine, #ten, #eleven, #twelve {
+    top: 120%;
+  }
+
+  #thirteen, #fourteen, #fifteen, #sixteen {
+    top: 170%;
+  }
+
+  #seventeen, #eighteen, #nineteen, #twenty  {
+    top: 220%;
+  }
+
+  #twentyone, #twentytwo, #twentythree, #twentyfour {
+    top: 270%;
+  }
+
+  #twentyfive {
+    top: 320%;
+  }
+}
+
+@media (max-width: 1050px) and (max-height: 580px) {
+  #one, #two, #three {
+    top: 20%;
+  }
+
+  #four, #five, #six {
+    top: 70%;
+  }
+
+  #seven, #eight, #nine {
+    top: 120%;
+  }
+
+  #ten, #eleven, #twelve {
+    top: 170%;
+  }
+
+  #thirteen, #fourteen, #fifteen {
+    top: 220%;
+  }
+
+  #sixteen, #seventeen, #eighteen  {
+    top: 270%;
+  }
+
+  #nineteen, #twenty, #twentyone {
+    top: 320%;
+  }
+
+  #twentytwo, #twentythree, #twentyfour {
+    top: 370%;
+  }
+
+  #twentyfive {
+    top: 420%;
+  }
+}
+  @media (max-width: 839px) and (max-height: 580px) {
+  #one, #two {
+    top: 20%;
+  }
+
+  #three, #four {
+    top: 80%;
+  }
+
+  #five, #six {
+    top: 140%;
+  }
+
+  #seven, #eight {
+    top: 200%;
+  }
+
+  #nine, #ten {
+    top: 260%;
+  }
+
+  #eleven, #twelve  {
+    top: 320%;
+  }
+
+  #thirteen, #fourteen {
+    top: 380%;
+  }
+
+  #fifteen, #sixteen {
+    top: 440%;
+  }
+
+  #seventeen, #eighteen {
+    top: 500%;
+  }
+
+  #nineteen, #twenty {
+    top: 560%;
+  }
+
+  #twentyone, #twentytwo {
+    top: 620%;
+  }
+
+  #twentythree, #twentyfour {
+    top: 680%;
+  }
+
+  #twentyfive {
+    top: 740%;
+  }
+}
+@media (max-width: 676px) and (max-height: 580px) {
+    #one {
+      top: 30%;
+    }
+
+    #two {
+      top: 100%;
+    }
+
+    #three {
+      top: 170%;
+    }
+
+    #four {
+      top: 240%;
+    }
+
+    #five {
+      top: 310%;
+    }
+
+    #six {
+      top: 380%;
+    }
+
+    #seven {
+      top: 450%;
+    }
+
+    #eight {
+      top: 520%;
+    }
+
+    #nine {
+      top: 590%;
+    }
+
+    #ten {
+      top: 660%;
+    }
+
+    #eleven {
+      top: 730%;
+    }
+
+    #twelve {
+      top: 800%;
+    }
+
+    #thirteen {
+      top: 870%;
+    }
+
+    #fourteen {
+      top: 940%;
+    }
+
+    #fifteen {
+      top: 1010%;
+    }
+
+    #sixteen {
+      top: 1080%;
+    }
+
+    #seventeen {
+      top: 1150%;
+    }
+
+    #eighteen {
+      top: 1220%;
+    }
+
+    #nineteen {
+      top: 1290%;
+    }
+
+    #twenty {
+      top: 1360%;
+    }
+
+    #twentyone {
+      top: 1430%;
+    }
+
+    #twentytwo {
+      top: 1500%;
+    }
+
+    #twentythree {
+      top: 1570%;
+    }
+
+    #twentyfour {
+      top: 1640%;
+    }
+
+    #twentyfive {
+      top: 1710%;
+    }
+  }
+  @media (max-width: 1404px) and (max-height: 460px) {
+  #one, #two, #three, #four {
+    top: 25%;
+  }
+
+  #five, #six, #seven, #eight {
+    top: 90%;
+  }
+
+  #nine, #ten, #eleven, #twelve {
+    top: 155%;
+  }
+
+  #thirteen, #fourteen, #fifteen, #sixteen {
+    top: 220%;
+  }
+
+  #seventeen, #eighteen, #nineteen, #twenty  {
+    top: 285%;
+  }
+
+  #twentyone, #twentytwo, #twentythree, #twentyfour {
+    top: 350%;
+  }
+
+  #twentyfive {
+    top: 415%;
+  }
+}
+
+@media (max-width: 1050px) and (max-height: 460px) {
+  #one, #two, #three {
+    top: 25%;
+  }
+
+  #four, #five, #six {
+    top: 90%;
+  }
+
+  #seven, #eight, #nine {
+    top: 155%;
+  }
+
+  #ten, #eleven, #twelve {
+    top: 220%;
+  }
+
+  #thirteen, #fourteen, #fifteen {
+    top: 285%;
+  }
+
+  #sixteen, #seventeen, #eighteen  {
+    top: 350%;
+  }
+
+  #nineteen, #twenty, #twentyone {
+    top: 415%;
+  }
+
+  #twentytwo, #twentythree, #twentyfour {
+    top: 480%;
+  }
+
+  #twentyfive {
+    top: 545%;
+  }
+}
+  @media (max-width: 839px) and (max-height: 460px) {
+  #one, #two {
+    top: 25%;
+  }
+
+  #three, #four {
+    top: 100%;
+  }
+
+  #five, #six {
+    top: 175%;
+  }
+
+  #seven, #eight {
+    top: 250%;
+  }
+
+  #nine, #ten {
+    top: 325%;
+  }
+
+  #eleven, #twelve  {
+    top: 400%;
+  }
+
+  #thirteen, #fourteen {
+    top: 425%;
+  }
+
+  #fifteen, #sixteen {
+    top: 500%;
+  }
+
+  #seventeen, #eighteen {
+    top: 575%;
+  }
+
+  #nineteen, #twenty {
+    top: 650%;
+  }
+
+  #twentyone, #twentytwo {
+    top: 725%;
+  }
+
+  #twentythree, #twentyfour {
+    top: 800%;
+  }
+
+  #twentyfive {
+    top: 875%;
+  }
+}
+@media (max-width: 676px) and (max-height: 580px) {
+    #one {
+      top: 40%;
+    }
+
+    #two {
+      top: 120%;
+    }
+
+    #three {
+      top: 200%;
+    }
+
+    #four {
+      top: 280%;
+    }
+
+    #five {
+      top: 360%;
+    }
+
+    #six {
+      top: 440%;
+    }
+
+    #seven {
+      top: 520%;
+    }
+
+    #eight {
+      top: 600%;
+    }
+
+    #nine {
+      top: 680%;
+    }
+
+    #ten {
+      top: 760%;
+    }
+
+    #eleven {
+      top: 840%;
+    }
+
+    #twelve {
+      top: 920%;
+    }
+
+    #thirteen {
+      top: 1000%;
+    }
+
+    #fourteen {
+      top: 1080%;
+    }
+
+    #fifteen {
+      top: 1160%;
+    }
+
+    #sixteen {
+      top: 1240%;
+    }
+
+    #seventeen {
+      top: 1320%;
+    }
+
+    #eighteen {
+      top: 1400%;
+    }
+
+    #nineteen {
+      top: 1480%;
+    }
+
+    #twenty {
+      top: 1560%;
+    }
+
+    #twentyone {
+      top: 1640%;
+    }
+
+    #twentytwo {
+      top: 1720%;
+    }
+
+    #twentythree {
+      top: 1800%;
+    }
+
+    #twentyfour {
+      top: 1880%;
+    }
+
+    #twentyfive {
+      top: 1960%;
+    }
+  }
